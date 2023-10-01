@@ -92,3 +92,12 @@ function Constructoror(word) {
 
 exports.Constructoror = Constructoror;
 // ========================================================================
+
+const reverser = (word) => {
+  let result = word.split("").reverse().join("");
+  return result;
+};
+
+exports.reverser = reverser;
+
+// ========================================================================

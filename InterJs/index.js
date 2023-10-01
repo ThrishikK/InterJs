@@ -7,6 +7,7 @@ const {
   worder,
   factorer,
   Constructoror,
+  reverser,
 } = require("./fun1");
 const list = ["A", "Dialogue", "with", "death"];
 // console.log(spreader(2, list));
@@ -30,7 +31,7 @@ const num = 50;
 
 // ========================================================================
 
-// words_list.map((eachWord) => console.log(worder(eachWord)));
+words_list.map((eachWord) => console.log(worder(eachWord)));
 
 // ========================================================================
 
@@ -39,3 +40,7 @@ words_list.map((eachWord) => console.log(factorer(eachWord)));
 // ========================================================================
 
 words_list.map((eachWord) => console.log(new Constructoror(eachWord)));
+
+// ========================================================================
+
+words_list.map((eachWord) => console.log(reverser(eachWord)));
